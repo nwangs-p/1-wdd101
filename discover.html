@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Front End Development, Ifeanyi Nwanga">
+    <meta name="author" content="Nwanga Ifeanyi">
+    <meta property="og:url" content="https://nwangs-p.github.io/wdd230">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ifeanyi's - WDD 230 - Frontend Development">
+    <meta property="og:image" content="https://www.billboardarena.com.ng/index.php/board/Unipole-Sapele-Road-By-Adesuwa-Junction-Facing-Traffic-Benin-city-4">
+    <title>Area King - Chamber of Commerce</title>
+    <link rel="icon" type="image/x-icon" href="images/BlackandWhite.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,800&family=Roboto&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header>
+        <a id="logo-pic" href="">
+            <img src="images/black-white.png" alt="Area King Chamber Logo">
+        </a>
+    
+        <div id="menu"></div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="active">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">Discover.</a>
+            </li>
+            <li>
+                <a href="">Directory</a>
+            </li>
+            <li>
+                <a href="">Join</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="d-header">
+        <h1>Discover Area King</h1>
+    </div>
+    <main id="d-main">
+        <div id="sidebar">
+            <section class="demogrphics">
+                <h2>Demographics</h2>
+                <p>Area King is a vibrant and diverse business community located in Benin City. With a mix of industries, it reflects the entrepreneurial spirit of our region. The community boasts a diverse population and skilled workers contributing to its growth</p>
+                <button>Learn More</button>
+            </section>
+
+            <section class="statistical">
+                <h2>Statistical Data</h2>
+                <p> Area King's economic landscape is thriving, with steady GDP growth, low unemployment rates, and a flourishing business ecosystem.</p>
+                <a href="">View Data</a>
+            </section>
+
+            <section class="d-event">
+                <h2>Events</h2>
+                <p>Explore our calendar for upcoming networking events, business workshops, and community gatherings </p>
+                <a href="">View Events</a>
+            </section>
+
+            <div id="websiteVisitInfo">
+                <h1 id="websiteVisitHeading">Website Visit Message::</h1>
+                <p id="websiteVisitMessage"></p>
+            </div>
+        </div>
+
+     
+
+        <div id="main-content">
+            <h2>Major Industries</h2>
+
+            <!-- Lazy loading images with captions -->
+            <div class="f-image">
+                <figure>
+                    <img src="images/advertising-business-promotion.webp" alt="business promotion" loading="lazy" width="400" height="400">
+                    <figcaption>Advertising Business Promotion</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/technology.jpg" alt="tech inovations" loading="lazy" width="400" height="400">
+                    <figcaption>Technological innovation</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/finance_2.jpg.webp" alt="business finance" loading="lazy" width="400" height="400">
+                    <figcaption>Finance</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/business-and-strategic-management.jpg" alt="stratagies" loading="lazy" width="400" height="400">
+                    <figcaption>Strategic Management</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/digital-marketing.jpeg" alt="digital marketing" loading="lazy" width="400" height="400">
+                    <figcaption>Digital Marketing</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/creatvity.jfif" alt="Creativeness" loading="lazy" width="400" height="400">
+                    <figcaption>creatvity</figcaption>
+                </figure>
+        </div>
+        </div>
+    </main>
+    <footer style="margin-top: 10%;">
+        <!-- <hr> -->
+        <div class="logo-footer">
+            <img src="images/black-white.png" width="100" alt="footer logo">
+        </div>
+        <div class="footer-icon">
+            <h3>Follow US On</h3>
+            <i class="fa fa-facebook" style="font-size: 120%; color: #020000 ;"></i>
+            <i class="fa fa-instagram" style="font-size:120%; color: #020000 ;"></i>
+            <i class="fa fa-twitter" style="font-size: 120%; color: #020000 ;"></i>
+            <i class="fa fa-linkedin" style="font-size: 120%;"></i>
+        </div>
+        <div class="connect">
+            <h3>Connect with US</h3>
+            <p><i class="fa fa-envelope" style="font-size: 120%;  color: #020000; margin-right: 2px;"></i>ifeanyidiamond5@gmail.com</p>
+            <div class="more-info">
+              <a href="">Terms & Conditions |</a>
+              <a href="">Privacy Policy |</a>
+              <a href="">About Us |</a>
+              <a href="">Contact US </a>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="below-p-footer">
+            <p class="f-p">&copy;2024 Ifeanyi Nwanga - Area Chamber All rights reserved.</p>
+            <p class="f-p2" id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js">
+    </script>
+</body>
+</html>
+
+
